@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Site de Jean Kensly</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    font-size:40px;
+}
+
+.card{
+    background:#111827;
+    padding:20px;
+    border-radius:10px;
+    width:300px;
+    margin:auto;
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    background:#22c55e;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#16a34a;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Bienvenue sur mon site</h1>
+
+<div class="card">
+<h2> J-K TECH 👨‍💻</h2>
+<p>Étudiant en informatique</p>
+<p>Objectif : devenir expert en cybersécurité</p>
+
+<button onclick="message()">Clique ici</button>
+</div>
+
+<script>
+function message(){
+    alert("Bienvenue sur le site de J-K !");
+}
+</script>
+
+</body>
+</html>
